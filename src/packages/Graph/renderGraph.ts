@@ -17,7 +17,7 @@ export const renderGraph = (elementId: string, elements: Elements): Core => {
         {
             selector: 'edge',
             css: {
-                content: 'data(relationship)',
+                // content: 'data(relationship)',
                 width: 0.2,
                 'font-size': '3rem',
                 'curve-style': 'bezier',
