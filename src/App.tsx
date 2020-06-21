@@ -13,7 +13,7 @@ function App() {
     }, [])
 
     return (
-        <div>
+        <div style={{ marginTop: '7px', marginLeft: '7px' }}>
             <div>
                 <Search persons={persons} handleSearchButtonClick={(elements) => setElements(elements)}/>
             </div>
